@@ -43,7 +43,7 @@ Doc-KB는 단순 검색을 넘어, **권한 제어(ACL)**와 **근거 추적(Cit
 ## 🛠️ 환경 및 스펙
 
 - **Language:** Java (필수 아님, 정책/환경에 따라 대체 가능)
-- **Baseline JDK:** Java 1.8  
+  - **Baseline JDK:** Java 1.8
 - Vector Engine: FAISS / OpenSearch  
 - Interface: REST API  
 - Input: Canonical JSON (Doc-Nrm Output)
@@ -66,3 +66,4 @@ Response
   ]
 }
 ```
+
