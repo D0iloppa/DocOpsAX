@@ -58,8 +58,8 @@ Doc-GV는 문서 데이터가 **수집 → 가공 → 활용 → 반출**되는 
 
 ## 🛠️ 환경 및 기술 기준
 
-- **Baseline JDK:** Java 1.8  
 - **Language:** Java (필수 아님, 정책/환경에 따라 대체 가능)
+  - **Baseline JDK:** Java 1.8
 - **Encoding:** UTF-8
 - **Storage:** RDB / Immutable Storage
 - **Interface:** Internal REST API / Event Hook
@@ -78,3 +78,4 @@ Doc-GV는 문서 데이터가 **수집 → 가공 → 활용 → 반출**되는 
   - 생성 경로
   를 **즉시 재현 가능**
 - 공공·금융·규제 환경 대응을 전제로 설계
+
