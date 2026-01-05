@@ -68,13 +68,18 @@ AI가 즉시 학습·검색·추론에 활용할 수 있는
 
 ## 🛠️ 환경 및 스펙
 
-- Language: Java 11  
+
+- **Language:** Java (필수 아님, 정책/환경에 따라 대체 가능)
+  - **Baseline JDK:** Java 1.8
 - Encoding: UTF-8  
 - Dependency:
   - MyBatis 3.5.x (메타데이터 저장)
   - Apache POI
   - Hancom GSDK
 - Interface: REST API (JSON Response)
+
+> ⚠️ 본 프로젝트군은 **Java 1.8 기준 설계**를 원칙으로 하되,  
+> 환경·정책·성능 요구에 따라 타 언어 또는 런타임으로 대체 가능합니다.
 
 ---
 
@@ -120,3 +125,4 @@ Response (Canonical JSON)
   ]
 }
 ```
+
